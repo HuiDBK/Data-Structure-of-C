@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "malloc.h"
 
-#define MAXSIZE 100		// 顺序表的最大存储量
+#define MAXSIZE 100			// 顺序表的最大存储量
 #define TRUE  1
 #define FALSE 0
 
@@ -14,20 +14,20 @@ typedef struct SeqList{
 	int len;		// 当前顺序表的长度
 }*SeqList;
 
-/********************* 顺序表的常规操作 *********************************/
+/********************* 顺序表的常规操作 *******************************/
 
-SeqList InitList();			// 初始化线性表
+SeqList InitList();				// 初始化线性表
 void    DestroyList();			// 销毁线性表
 void    ClearList();			// 清空线性表
 int     ListEmpty();			// 判断线性表是否为空
-int     ListLen();			// 求线性表的长度
-void	Travel();			// 遍历线性表
+int     ListLen();				// 求线性表的长度
+void	Travel();				// 遍历线性表
 int     ListInsert();			// 向线性表插入元素
 int     ListDelete();			// 从线性表删除元素
-int     GetElem();			// 找到线性表指定位置的元素值
+int     GetElem();				// 找到线性表指定位置的元素值
 int     LocateElem();			// 找到线性表指定元素值的位置
 
-/**********************************************************************/
+/********************************************************************/
 
 
 
